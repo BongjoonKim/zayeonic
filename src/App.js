@@ -3,22 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+          <div class="topbar">
+              <a id="homepageBtn">메인페이지</a>
+              <a id="postlistBtn">글목록</a>
+
+          </div>
+          <div>
+              d
+          </div>
+
       </header>
-    </div>
+      <div class='postist'>
+        
+      </div>
   );
 }
 
